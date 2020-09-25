@@ -6,7 +6,7 @@ const LoadingComponent: React.FC<{
   content?: string;
 }> = (inverted) => {
   return (
-    <Dimmer active inverted={inverted}>
+    <Dimmer active inverted={true}>
       <Loader>Loading Activities...</Loader>
     </Dimmer>
   );
